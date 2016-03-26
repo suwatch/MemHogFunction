@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "schedule": "0/30 * * * * *",
+      "runOnStartup": false,
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
